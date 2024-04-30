@@ -14,7 +14,7 @@ endif()
 include(CTest)
 if(BUILD_TESTING)
   find_package(osrf_testing_tools_cpp REQUIRED)
-  osrf_testing_tools_cpp_require_googletest(VERSION_GTE 1.8)  # ensures target gtest_main exists
+  osrf_testing_tools_cpp_require_googletest(VERSION_GTE 1.14)  # ensures target gtest_main exists
   get_target_property(memory_tools_available
     osrf_testing_tools_cpp::memory_tools LIBRARY_PRELOAD_ENVIRONMENT_IS_AVAILABLE)
 
