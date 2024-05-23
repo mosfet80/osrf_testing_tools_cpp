@@ -1,8 +1,8 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.8)
 
 project(osrf_testing_tools_cpp)
 
-set(osrf_testing_tools_cpp_VERSION 1.5.1)
+set(osrf_testing_tools_cpp_VERSION 2.1.0)
 
 # Default to C++17
 if(NOT CMAKE_CXX_STANDARD)
